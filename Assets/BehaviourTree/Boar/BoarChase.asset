@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: BoarChase
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":290.4,"y":-33.60001},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_position":{"x":436.8665,"y":51.73349},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"1"},{"repeaterMode":1,"repeatTimes":{"_value":1},"repeatUntilStatus":0,"_position":{"x":350.6,"y":157.2},"$type":"NodeCanvas.BehaviourTrees.Repeater","$id":"2"},{"_condition":{"target":{"_name":"Tagert","_targetVariableID":"f627d18a-2dc3-454d-8fb6-97908437110e"},"maxDistance":{"_name":"TargetMaxDistance","_targetVariableID":"c50dd090-b2d6-42b1-b51b-514dd77cd86c"},"layerMask":{"_value":{"value":55}},"awarnessDistance":{"_name":"TargetAwarenessDistance","_targetVariableID":"61e2723a-20c5-4167-ad5d-5ee06c0022ac"},"viewAngle":{"_name":"ViewAngle","_targetVariableID":"1f952e7f-d325-4f6e-869d-3a310531506a"},"$type":"NodeCanvas.Tasks.Conditions.CanSeeTarget"},"_position":{"x":267.8,"y":276.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"3"},{"repeaterMode":2,"repeatTimes":{"_value":1},"_position":{"x":540.2,"y":168.6},"$type":"NodeCanvas.BehaviourTrees.Repeater","$id":"4"},{"_action":{"target":{"_name":"Tagert","_targetVariableID":"f627d18a-2dc3-454d-8fb6-97908437110e"},"speed":{"_name":"Speed","_targetVariableID":"f25e62df-278c-4ae3-a8fb-ce1f8438f1d5"},"keepDistance":{},"overrideAgent":{"_type":"UnityEngine.AI.NavMeshAgent","_name":"NavMeshAgent","_targetVariableID":"ae400e58-2abc-40aa-adfb-d8a3d9725735"},"$type":"NodeCanvas.Tasks.Actions.MoveToGameObject"},"_position":{"x":561.6,"y":275.2},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{"Tagert":{"_name":"Tagert","_id":"f627d18a-2dc3-454d-8fb6-97908437110e","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Speed":{"_name":"Speed","_id":"f25e62df-278c-4ae3-a8fb-ce1f8438f1d5","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"NavMeshAgent":{"_name":"NavMeshAgent","_id":"ae400e58-2abc-40aa-adfb-d8a3d9725735","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AI.NavMeshAgent,
+    UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"TargetMaxDistance":{"_name":"TargetMaxDistance","_id":"c50dd090-b2d6-42b1-b51b-514dd77cd86c","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"TargetAwarenessDistance":{"_name":"TargetAwarenessDistance","_id":"61e2723a-20c5-4167-ad5d-5ee06c0022ac","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"ViewAngle":{"_name":"ViewAngle","_id":"1f952e7f-d325-4f6e-869d-3a310531506a","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.28
+    _category: 
+    _comments: 
+    _translation: {x: 207, y: 217}
+    _zoomFactor: 0.7500953
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}

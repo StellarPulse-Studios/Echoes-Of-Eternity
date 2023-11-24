@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: DeerDoeFlee
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_action":{"target":{"_name":"Target","_targetVariableID":"2b28fb3f-4f2f-40b3-89ae-3ee158132b89"},"speed":{"_name":"Speed","_targetVariableID":"84536ee5-7bba-4cce-b287-7fa018602662"},"fledDistance":{"_name":"FledDistance","_targetVariableID":"5895cd5c-6ca4-4e9c-a504-be6005b8258c"},"lookAhead":{"_value":10.0},"overrideAgent":{"_type":"UnityEngine.AI.NavMeshAgent","_name":"NavMeshAgent","_targetVariableID":"6045c104-1ac5-4303-9f2b-ed59d393a859"},"$type":"NodeCanvas.Tasks.Actions.Flee"},"_position":{"x":332.2,"y":222.2},"$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{"Animator":{"_name":"Animator","_id":"afeacb79-0a4c-41bd-83ba-db0da76216ac","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Animator,
+    UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Target":{"_name":"Target","_id":"2b28fb3f-4f2f-40b3-89ae-3ee158132b89","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Speed":{"_name":"Speed","_id":"84536ee5-7bba-4cce-b287-7fa018602662","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"NavMeshAgent":{"_name":"NavMeshAgent","_id":"6045c104-1ac5-4303-9f2b-ed59d393a859","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.AI.NavMeshAgent,
+    UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"FledDistance":{"_name":"FledDistance","_id":"5895cd5c-6ca4-4e9c-a504-be6005b8258c","_isPublic":true,"$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.28
+    _category: 
+    _comments: 
+    _translation: {x: 61, y: 103}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}
