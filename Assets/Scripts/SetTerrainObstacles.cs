@@ -94,7 +94,6 @@ public class SetTerrainObstacles : MonoBehaviour
         hight = terrain.terrainData.size.y;
         Debug.Log("Terrain Size is :" + width + " , " + hight + " , " + lenght);
 
-        int i = 0;
         GameObject parent = new GameObject("Tree_Obstacles");
 
         Debug.Log("Adding " + Obstacle.Length + " navMeshObstacle Components for Trees");
