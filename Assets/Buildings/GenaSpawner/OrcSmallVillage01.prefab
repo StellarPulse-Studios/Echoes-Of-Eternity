@@ -59,7 +59,7 @@ PrefabInstance:
     - target: {fileID: 7179475968841342334, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.1
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 7179475968841342334, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
@@ -69,7 +69,7 @@ PrefabInstance:
     - target: {fileID: 7179475968841342334, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.2
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7179475968841342334, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
@@ -114,22 +114,27 @@ PrefabInstance:
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_terrainModifier.m_strength
-      value: 10
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushIndex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_terrainModifier.m_position.x
-      value: 20.1
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_terrainModifier.m_position.z
-      value: -5.2
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_terrainModifier.m_areaOfEffect
-      value: 70
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
@@ -138,14 +143,119 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
+      propertyPath: m_terrainModifier.m_noiseFractal.m_enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
       propertyPath: m_terrainModifier.m_brushTextures.Array.size
-      value: 1
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
         type: 3}
       propertyPath: m_terrainModifier.m_brushTextures.Array.data[0]
       value: 
       objectReference: {fileID: 2800000, guid: 2f2b5527842d6334880c59d9dddc74ec, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 8562e5af4cc78dd488059285d0c642d1, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: f77fc97af49c16c4cb3927a1d0462e79, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9cd761b0a0aa72648a348e5ebfd6e86b, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d320e63902a22c4a936a386d3b82942, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: d655b3415e9b4a349bdfff62e290f6a0, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: 86ce52cdd27d0214786d1ffd6923fff6, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9236ebf756af8954193c9c44e05ba09e, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: a913d21bd6330f64bae5eb7e5fbd830b, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: 7fd839b086d4a844d83cbe9490683855, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: 9fd32fab18db93d4bab18a1fb6923819, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[11]
+      value: 
+      objectReference: {fileID: 2800000, guid: 05c00cf657919e346bebf9e153c56e66, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[12]
+      value: 
+      objectReference: {fileID: 2800000, guid: 2fbda824cdc093e4c9951a5f273f6554, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[13]
+      value: 
+      objectReference: {fileID: 2800000, guid: 27e1a0b4841c0b34eb51ed3e21e50691, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[14]
+      value: 
+      objectReference: {fileID: 2800000, guid: 4a374978ee6c9ab46a39372d609f7e1e, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[15]
+      value: 
+      objectReference: {fileID: 2800000, guid: 128216f3a20cb73458440e12e657db4b, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[16]
+      value: 
+      objectReference: {fileID: 2800000, guid: 410d50fd32c308c46a95f502d3c7c2ff, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[17]
+      value: 
+      objectReference: {fileID: 2800000, guid: cc056045a1782ac4a8c08bdce66d49ed, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[18]
+      value: 
+      objectReference: {fileID: 2800000, guid: b04e2e83ee1283545a02e1bab08989ba, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[19]
+      value: 
+      objectReference: {fileID: 2800000, guid: e24fd533463218644ae0bb81977c5e99, type: 3}
+    - target: {fileID: 8672579687052881489, guid: 953af7aa69817224db02f78652fd5aab,
+        type: 3}
+      propertyPath: m_terrainModifier.m_brushTextures.Array.data[20]
+      value: 
+      objectReference: {fileID: 2800000, guid: 738922d98c7b6f242bcd7f511badbef5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
