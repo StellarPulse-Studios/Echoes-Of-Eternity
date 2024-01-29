@@ -937,6 +937,105 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Giant Forest-Grass(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:15:34
+    scriptableObjectAssetGUID: 84dabca0d3d09e846bd21bc334a668a5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Details, AllTerrains, OnlyThisSpawner
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:45:13
+    scriptableObjectAssetGUID: 7c587c78af653bc4b8ac11ea03ae24b1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Giant Forest-Grass(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:45:15
+    scriptableObjectAssetGUID: cb953ebe97c106841bceb96c68b89fce
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Details, AllTerrains, OnlyThisSpawner
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:46:26
+    scriptableObjectAssetGUID: 75e1215069cf3b24ca6c3b2c3f204057
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Giant Forest-Grass(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:46:29
+    scriptableObjectAssetGUID: 8c93ef3f37d0d5240a73aab92497ba0c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Details, AllTerrains, OnlyThisSpawner
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:46:59
+    scriptableObjectAssetGUID: 13a75330ea7f7064d90c0ef13f7770e6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Giant Forest-Grass(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:47:02
+    scriptableObjectAssetGUID: ef2f50b357602ad48bced8444433296a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Details, AllTerrains, OnlyThisSpawner
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:56:36
+    scriptableObjectAssetGUID: 96c44b89dd6a4f14f9159739bc6f1146
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Giant Forest-Grass(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 29-01-2024 21:57:14
+    scriptableObjectAssetGUID: 5fbc91359c1fcce4a96b767155366596
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: ffc3da3be67f8b54c9d558e80a2dfdcc
     isWorldmap: 0
@@ -945,7 +1044,7 @@ MonoBehaviour:
     max: 109.31417
   - guid: f551c9bb258449b43af7aeaf0f531b03
     isWorldmap: 0
-    recalculate: 1
+    recalculate: 0
     min: 40.281864
     max: 149.40852
   - guid: Worldmap
@@ -971,5 +1070,11 @@ MonoBehaviour:
       - 002056/Terrain_0_0-20231124 - 002056_LayerTree_0_0
     fullPath: G:/Programs/Unity/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
       - 002056/Terrain_0_0-20231124 - 002056_LayerTree_0_0
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_512_0
+    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_512_0
+    fullPath: G:/Programs/Unity/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_512_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
