@@ -431,6 +431,358 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:30:28
+    scriptableObjectAssetGUID: c807fcc8afa7e634dba496d45cd48e08
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:30:31
+    scriptableObjectAssetGUID: 8ca00270e5ea2864b8bcddcf15d2ca9f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:32:39
+    scriptableObjectAssetGUID: a4144fee1f92f4f468fc7b24c7a8d4bb
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:32:43
+    scriptableObjectAssetGUID: d992d72552764fc458cb8a7303ab5ec5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:34:44
+    scriptableObjectAssetGUID: edcae66facaf667408b61170e6f4f1d0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:34:47
+    scriptableObjectAssetGUID: 72a5d8dde04d79c4bb5e264e10dc08f1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:35:57
+    scriptableObjectAssetGUID: f9951602d5a8b9f42b04e6f65b8eff2e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:36:01
+    scriptableObjectAssetGUID: 9c261a76b18369645984311bd7dabb16
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:37:07
+    scriptableObjectAssetGUID: 35e5c749fd21e1140aff0f6ee9c019e2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:37:09
+    scriptableObjectAssetGUID: 915e6ff7137850343a9883d265f75d40
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:39:08
+    scriptableObjectAssetGUID: b09434dd70106754e9d606aa6377ee8b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:39:11
+    scriptableObjectAssetGUID: 1524b697c169d89479c4ddd3cca5fd79
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:39:39
+    scriptableObjectAssetGUID: 0c39bc40ab0adb441b7e46f12dfec8b6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:39:43
+    scriptableObjectAssetGUID: 9f2832a461656a44fb1710cf832ab4a3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:40:17
+    scriptableObjectAssetGUID: 18efae73221272f418c94ae326c5865b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:40:19
+    scriptableObjectAssetGUID: 5e945c58a1baeec4ebe921807e946e49
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:40:30
+    scriptableObjectAssetGUID: d147d2cc3f869d3449f28e1320ef0725
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:41:05
+    scriptableObjectAssetGUID: 670b26abecdf4e2469a63045ef1fb9a4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:42:26
+    scriptableObjectAssetGUID: 013ac8b9f8fbc3945b47640a75dd3348
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:42:29
+    scriptableObjectAssetGUID: c4340b056c62dc3428eccd95197f4c98
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:42:58
+    scriptableObjectAssetGUID: 7cd0ea87e5700684b8aa582105ef4c1f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:43:02
+    scriptableObjectAssetGUID: c2819413110c175458692f5aa63500ba
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:43:49
+    scriptableObjectAssetGUID: 5c6dffd4ad8a51a4eb764c3de7740fc9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:43:51
+    scriptableObjectAssetGUID: 3b9107e5639be424bb11e6be110d5da6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:44:23
+    scriptableObjectAssetGUID: a543dadab0792534d97c56e4f63414e3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:44:26
+    scriptableObjectAssetGUID: 9d75166cc7b40764eadf02f4317636a0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:44:57
+    scriptableObjectAssetGUID: 77eed418ba5fc7a4dbdbd0d551bb0ffd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:44:59
+    scriptableObjectAssetGUID: fdd10342f57f2dc4fa824dd304c8a356
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:47:28
+    scriptableObjectAssetGUID: 1fac49b3ccc5a9046a14eafbe9b4df48
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:47:31
+    scriptableObjectAssetGUID: 65d539e350d39b141a31c05d50fb722c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:59:19
+    scriptableObjectAssetGUID: 36dafcb3d49e1e9429001125b11350a6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 01-02-2024 20:59:21
+    scriptableObjectAssetGUID: f00363b756bd17e46bdbec8799ba777b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: ffc3da3be67f8b54c9d558e80a2dfdcc
     isWorldmap: 0
@@ -442,16 +794,16 @@ MonoBehaviour:
     recalculate: 0
     min: 39.93811
     max: 150.31479
-  - guid: Worldmap
-    isWorldmap: 1
-    recalculate: 0
-    min: 0
-    max: 0
   - guid: df7d8f145bb3ff24090b391b17401c82
     isWorldmap: 0
     recalculate: 0
     min: 40.281864
     max: 149.40852
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 0
   m_bakedMaskCacheEntries:
   - fileName: Terrain_0_0-20231124 - 002056_LayerTree_3584_1
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
