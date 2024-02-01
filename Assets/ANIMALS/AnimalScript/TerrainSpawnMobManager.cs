@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TerrainSpawnManager : MonoBehaviour
+public class TerrainSpawnMobManager : MonoBehaviour
 {
     [System.Serializable]
     public class SectionSpawnParams
@@ -17,8 +17,9 @@ public class TerrainSpawnManager : MonoBehaviour
     public SectionSpawnParams[] sectionSpawnParams;
     public Transform player;
     public LayerMask terrainLayer;
+    public List<LayerMask> layersToAvoid; // List of layers to avoid spawning objects on
     public float spawnInnerRadius = 10f;
-    public float spawnOuterRadius = 20f; 
+    public float spawnOuterRadius = 20f;
     public float despawnRadius = 30f;
     public float spawnInterval = 5f;
     public int maxSpawnCount = 50;
@@ -29,7 +30,7 @@ public class TerrainSpawnManager : MonoBehaviour
     void Update()
     {
         // Spawning logic
-        if(totalSpawnedObjects>= GetMaxSpawnCap() || totalSpawnedObjects >= maxSpawnCount)
+        if (totalSpawnedObjects >= GetMaxSpawnCap() || totalSpawnedObjects >= maxSpawnCount)
         {
             // Reset the spawn timer
             spawnTimer = spawnInterval;
@@ -39,11 +40,15 @@ public class TerrainSpawnManager : MonoBehaviour
             // Get a random spawn point around the player
             Vector3 spawnPoint = GetRandomSpawnPoint();
 
-            // Spawn an object at the determined spawn point
-            SpawnObjectAtPoint(spawnPoint);
+            // Check if the spawn point is valid
+            if (IsValidSpawnPoint(spawnPoint))
+            {
+                // Spawn an object at the determined spawn point
+                SpawnObjectAtPoint(spawnPoint);
 
-            // Increment the total spawned objects count
-            totalSpawnedObjects++;
+                // Increment the total spawned objects count
+                totalSpawnedObjects++;
+            }
         }
         else
         {
@@ -64,6 +69,20 @@ public class TerrainSpawnManager : MonoBehaviour
         Vector3 spawnPoint = playerPosition + new Vector3(randomDirection.x, 0f, randomDirection.y) * distance;
 
         return spawnPoint;
+    }
+
+    bool IsValidSpawnPoint(Vector3 spawnPoint)
+    {
+        // Check if the spawn point is valid based on the layers to avoid
+        Collider[] colliders = Physics.OverlapSphere(spawnPoint, 1f); // Check for nearby colliders
+        foreach (Collider collider in colliders)
+        {
+            if (layersToAvoid.Contains(collider.gameObject.layer))
+            {
+                return false; // Invalid spawn point
+            }
+        }
+        return true; // Valid spawn point
     }
 
     void SpawnObjectAtPoint(Vector3 spawnPoint)
@@ -101,7 +120,7 @@ public class TerrainSpawnManager : MonoBehaviour
 
                 // Instantiate the prefab at the adjusted spawn position
                 GameObject obj = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
-                obj.GetComponent<AnimalBlackboard>().Target = player.gameObject;
+                obj.GetComponent<MobBlackboard>().Target = player.gameObject;
                 currentSection.spawnedObjects.Add(obj);
             }
             else
@@ -153,3 +172,4 @@ public class TerrainSpawnManager : MonoBehaviour
         return null;
     }
 }
+

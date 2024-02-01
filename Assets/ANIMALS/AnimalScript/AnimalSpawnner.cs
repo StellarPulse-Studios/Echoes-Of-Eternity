@@ -27,7 +27,7 @@ public class AnimalSpawnner : MonoBehaviour
             animal.SetActive(false);
             availableAnimals.Add(animal);
             animal.transform.SetParent(transform);
-            animal.GetComponent<AnimalBlackboard>().Target = player.gameObject;
+            animal.GetComponent<MobBlackboard>().Target = player.gameObject;
         }
     }
     private void Update()

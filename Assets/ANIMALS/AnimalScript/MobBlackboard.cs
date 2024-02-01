@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class AnimalBlackboard : MonoBehaviour
+public abstract class MobBlackboard : MonoBehaviour
 {
     [SerializeField] protected GameObject target;
     [SerializeField] protected bool gotHit;

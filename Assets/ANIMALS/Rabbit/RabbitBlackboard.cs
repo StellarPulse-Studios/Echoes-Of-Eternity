@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RabbitBlackboard : AnimalBlackboard
+public class RabbitBlackboard : MobBlackboard
 {
     
 }
