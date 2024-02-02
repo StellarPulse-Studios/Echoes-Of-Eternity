@@ -7,7 +7,6 @@ public class ItemSpawnerManager : MonoBehaviour
     public LayerMask groundMask; // The ground layer mask to check for ground collisions
     public float activationRadius = 10f; // The radius within which items should be activated
     public List<SectionInfo> spawnSections; // List of sections where items should spawn
-    public List<string> disallowedLayers; // List of layers where items should not spawn
 
     private List<GameObject> spawnedItems = new List<GameObject>(); // List to store spawned items
 
@@ -55,20 +54,20 @@ public class ItemSpawnerManager : MonoBehaviour
                     GameObject itemToSpawn = itemInfo.itemPrefab;
 
                     // Check if the item prefab is not null
-                    if (itemToSpawn != null)
+                    if (itemToSpawn == null)
                     {
-                        // Find a valid spawn point within the section
-                        randomPosition = FindValidSpawnPoint(randomPosition);
-
-                        // Check if a valid spawn point was found
-                        if (randomPosition != Vector3.zero)
-                        {
-                            // Instantiate the item at the spawn point and add it to the list of spawned items
-                            GameObject spawnedItem = Instantiate(itemToSpawn, randomPosition, Quaternion.identity);
-                            spawnedItem.SetActive(false);
-                            spawnedItems.Add(spawnedItem);
-                        }
+                        continue;
                     }
+                    // Find a valid spawn point within the section
+                    //randomPosition = FindValidSpawnPoint(randomPosition);
+                    if(Physics.Raycast(randomPosition+Vector3.up*500,Vector3.down,out RaycastHit hit, 2000.0f,groundMask,QueryTriggerInteraction.Ignore))
+                    {
+                        // Check if a valid spawn point was found
+                        GameObject spawnedItem = Instantiate(itemToSpawn, hit.point, Quaternion.identity);
+                        //spawnedItem.SetActive(true);
+                        spawnedItems.Add(spawnedItem);
+                    }
+;
                 }
             }
         }
@@ -126,19 +125,8 @@ public class ItemSpawnerManager : MonoBehaviour
 
     bool CanSpawnAtPosition(Vector3 position)
     {
-        // Check if an item can spawn at the given position
-        // Check if there's any collider at the position
-        Collider[] colliders = Physics.OverlapSphere(position, 0.1f);
-        foreach (Collider collider in colliders)
-        {
-            // Check if the collider is not a trigger and is on any disallowed layer
-            if (!collider.isTrigger && disallowedLayers.Contains(LayerMask.LayerToName(collider.gameObject.layer)))
-            {
-                return false;
-            }
-        }
-        // Return true if no obstacles or disallowed layers are found at the position
-        return true;
+        // Check if an item can spawn at the given position by verifying if it is on the specified layer
+        return Physics.Raycast(position, Vector3.down, 1000.0f, groundMask);
     }
 
     void EnableItemsInsideRadius()

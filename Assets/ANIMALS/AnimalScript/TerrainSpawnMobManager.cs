@@ -1,23 +1,29 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using static TerrainSpawnMobManager.SectionSpawnParams;
 
 public class TerrainSpawnMobManager : MonoBehaviour
 {
     [System.Serializable]
     public class SectionSpawnParams
     {
-        public int maxCount;                             // Maximum number of objects to spawn in this section
-        public List<GameObject> spawnPrefabs;           // List of game object prefabs to spawn
-        public int[] spawnCounts;                        // Number of each prefab to spawn in this section
+        [System.Serializable]
+        public class SpawnPrefabInfo
+        {
+            public GameObject prefab; // The prefab to spawn
+            public int spawnCount;    // The number of objects to spawn for this prefab in this section
+            public int currentSpawnedCount; // The number of objects spawned for this prefab in this section
+        }
+
+        public List<SpawnPrefabInfo> spawnPrefabs;       // List of game object prefabs and their spawn counts
         public GameObject sectionGameObject;            // GameObject representing the section
         public List<GameObject> spawnedObjects;         // List to store spawned objects in this section
     }
 
     public SectionSpawnParams[] sectionSpawnParams;
     public Transform player;
-    public LayerMask terrainLayer;
-    public List<LayerMask> layersToAvoid; // List of layers to avoid spawning objects on
+    public LayerMask groundMask;
     public float spawnInnerRadius = 10f;
     public float spawnOuterRadius = 20f;
     public float despawnRadius = 30f;
@@ -30,25 +36,19 @@ public class TerrainSpawnMobManager : MonoBehaviour
     void Update()
     {
         // Spawning logic
-        if (totalSpawnedObjects >= GetMaxSpawnCap() || totalSpawnedObjects >= maxSpawnCount)
+        if(totalSpawnedObjects >= maxSpawnCount)
         {
             // Reset the spawn timer
             spawnTimer = spawnInterval;
         }
-        if (spawnTimer <= 0f && totalSpawnedObjects < GetMaxSpawnCap() && totalSpawnedObjects < maxSpawnCount)
+        if (spawnTimer <= 0f && totalSpawnedObjects < maxSpawnCount)
         {
             // Get a random spawn point around the player
             Vector3 spawnPoint = GetRandomSpawnPoint();
 
-            // Check if the spawn point is valid
-            if (IsValidSpawnPoint(spawnPoint))
-            {
-                // Spawn an object at the determined spawn point
-                SpawnObjectAtPoint(spawnPoint);
+            // Spawn objects
+            SpawnObjectsAtPoint(spawnPoint);
 
-                // Increment the total spawned objects count
-                totalSpawnedObjects++;
-            }
         }
         else
         {
@@ -58,7 +58,6 @@ public class TerrainSpawnMobManager : MonoBehaviour
 
         // Despawning logic
         DespawnObjectsOutsideRadius();
-
     }
 
     Vector3 GetRandomSpawnPoint()
@@ -71,21 +70,7 @@ public class TerrainSpawnMobManager : MonoBehaviour
         return spawnPoint;
     }
 
-    bool IsValidSpawnPoint(Vector3 spawnPoint)
-    {
-        // Check if the spawn point is valid based on the layers to avoid
-        Collider[] colliders = Physics.OverlapSphere(spawnPoint, 1f); // Check for nearby colliders
-        foreach (Collider collider in colliders)
-        {
-            if (layersToAvoid.Contains(collider.gameObject.layer))
-            {
-                return false; // Invalid spawn point
-            }
-        }
-        return true; // Valid spawn point
-    }
-
-    void SpawnObjectAtPoint(Vector3 spawnPoint)
+    void SpawnObjectsAtPoint(Vector3 spawnPoint)
     {
         // Find the section where the spawn point is located
         SectionSpawnParams currentSection = GetCurrentSection(spawnPoint);
@@ -96,36 +81,37 @@ public class TerrainSpawnMobManager : MonoBehaviour
             return;
         }
 
-        // Randomly choose a prefab to spawn
-        GameObject prefabToSpawn = currentSection.spawnPrefabs[Random.Range(0, currentSection.spawnPrefabs.Count)];
+        // Shuffle spawn prefabs list to randomize selection
+        Shuffle(currentSection.spawnPrefabs);
 
-        // Check if we need to spawn more objects for this prefab
-        int currentCount = currentSection.spawnedObjects.FindAll(obj => obj.name == prefabToSpawn.name).Count;
-        if (currentCount >= currentSection.maxCount)
-            return; // Maximum count reached for this prefab
-
-        // Attempt to spawn around the spawn point
-        int count = Mathf.Min(currentSection.spawnCounts.Length, currentSection.maxCount - currentCount);
-        if (count > 0)
+        foreach (SpawnPrefabInfo prefabInfo in currentSection.spawnPrefabs)
         {
-            Vector3 randomOffset = Random.insideUnitSphere * spawnOuterRadius;
-            randomOffset.y = 0f; // Keep the y-offset zero initially
-
-            // Cast a ray from the spawn point downwards to find the terrain hit point
-            RaycastHit hit;
-            if (Physics.Raycast(spawnPoint + Vector3.up * 100f, Vector3.down, out hit, Mathf.Infinity, terrainLayer))
+            if (prefabInfo.currentSpawnedCount < prefabInfo.spawnCount && totalSpawnedObjects < maxSpawnCount)
             {
-                // Adjust spawn position to the terrain hit point
-                Vector3 spawnPosition = hit.point + randomOffset;
+                // Attempt to spawn around the spawn point
+                Vector3 randomOffset = Random.insideUnitSphere * spawnOuterRadius;
+                randomOffset.y = 0f; // Keep the y-offset zero initially
 
-                // Instantiate the prefab at the adjusted spawn position
-                GameObject obj = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
-                obj.GetComponent<MobBlackboard>().Target = player.gameObject;
-                currentSection.spawnedObjects.Add(obj);
-            }
-            else
-            {
-                Debug.LogWarning("No terrain found below spawn point: " + spawnPoint);
+                // Cast a ray from the spawn point downwards to find the terrain hit point
+                RaycastHit hit;
+                if (Physics.Raycast(spawnPoint + Vector3.up * 100f, Vector3.down, out hit, Mathf.Infinity, groundMask))
+                {
+                    // Adjust spawn position to the terrain hit point
+                    Vector3 spawnPosition = hit.point + randomOffset;
+
+                    // Instantiate the prefab at the adjusted spawn position
+                    GameObject obj = Instantiate(prefabInfo.prefab, spawnPosition, Quaternion.identity);
+                    obj.GetComponent<MobBlackboard>().Target = player.gameObject;
+                    currentSection.spawnedObjects.Add(obj);
+
+                    // Increment the spawn count for this prefab
+                    prefabInfo.currentSpawnedCount++;
+                    totalSpawnedObjects++;
+                }
+                else
+                {
+                    Debug.LogWarning("No terrain found below spawn point: " + spawnPoint);
+                }
             }
         }
     }
@@ -146,16 +132,6 @@ public class TerrainSpawnMobManager : MonoBehaviour
         }
     }
 
-    int GetMaxSpawnCap()
-    {
-        int maxCap = 0;
-        foreach (SectionSpawnParams sectionParams in sectionSpawnParams)
-        {
-            maxCap += sectionParams.maxCount;
-        }
-        return maxCap;
-    }
-
     SectionSpawnParams GetCurrentSection(Vector3 position)
     {
         foreach (SectionSpawnParams sectionParams in sectionSpawnParams)
@@ -171,5 +147,17 @@ public class TerrainSpawnMobManager : MonoBehaviour
 
         return null;
     }
-}
 
+    void Shuffle<T>(List<T> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = Random.Range(0, n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+    }
+}
