@@ -816,6 +816,1282 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:41:58
+    scriptableObjectAssetGUID: c46ae72b56d9b904fb00657d8d7f8eb0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:54:44
+    scriptableObjectAssetGUID: 700facbd49549bc4d9816a9c4f8919c6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:54:45
+    scriptableObjectAssetGUID: 8143724077c71284ab1cb69724b9fccb
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:55:47
+    scriptableObjectAssetGUID: d4668ea9032b198468120d514191675f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:55:49
+    scriptableObjectAssetGUID: 037cee3eccbc62143be2f2b672cf6a72
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Undo - 1 Terrains
+    m_operationType: 5
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:56:11
+    scriptableObjectAssetGUID: 512a68e3409af7e4ab62fd90b0db4179
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:56:58
+    scriptableObjectAssetGUID: 9dde1daf7ffa6704bbbf7da3f5326c15
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:56:59
+    scriptableObjectAssetGUID: 5186f19aff025c7469f27520db3b5b14
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:57:56
+    scriptableObjectAssetGUID: 4f5e9b63f5cef414c889d3c3d7d3aab2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:57:58
+    scriptableObjectAssetGUID: 9b19f67e7022c3c4bbf4c99a59120355
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:58:21
+    scriptableObjectAssetGUID: 40375ccb2887bb84c98dab75ddfc870e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:58:22
+    scriptableObjectAssetGUID: d03696ca2b15f9940acb750ea5e0eb33
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:59:30
+    scriptableObjectAssetGUID: 94b24fb6985407843be86034c34f9fda
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 15:59:32
+    scriptableObjectAssetGUID: c5b23ae48a80564438d4f5b663a87299
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:00:09
+    scriptableObjectAssetGUID: d748c71ea10e6eb42ae777de111f2622
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:00:10
+    scriptableObjectAssetGUID: 486a6fc4dbcacad479ced6701d78deaf
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:01:12
+    scriptableObjectAssetGUID: 6fd81f4a61a833b43b062dbfffd71e79
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:01:13
+    scriptableObjectAssetGUID: 09d0f1255301a0049a3b525d595c0366
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:01:50
+    scriptableObjectAssetGUID: 5a0325d5332ee7b4397cb9883c8ba7ec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:01:51
+    scriptableObjectAssetGUID: 2b242881a0f8c6d408131648057ae572
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:02:06
+    scriptableObjectAssetGUID: 1a15c9cf7577874419dc969fb5e3a25b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:02:07
+    scriptableObjectAssetGUID: da073d44532243f4a8ce162486812b18
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:03:42
+    scriptableObjectAssetGUID: d43fe9e16cc2cb24d8f1e47f6659ad26
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:03:44
+    scriptableObjectAssetGUID: 452d00e418d7a5c4a80a94d9169fa705
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:04:47
+    scriptableObjectAssetGUID: e75b984d3a88c7045ac97a8db0f89c92
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:04:49
+    scriptableObjectAssetGUID: c79e0e4276025844297616e47a547c8b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:05:46
+    scriptableObjectAssetGUID: 52bd42b3091fed1458315cf99c52a7ac
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:05:48
+    scriptableObjectAssetGUID: c4c06f6cd7a61d44a8732e564ff4957e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:06:55
+    scriptableObjectAssetGUID: 5414f6304a1545041baf96f951600141
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:06:56
+    scriptableObjectAssetGUID: fe8df09052e21ed43b791e2d62951b88
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:08:20
+    scriptableObjectAssetGUID: 5f2720bfe842baf4eb7fd658167021d7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:08:22
+    scriptableObjectAssetGUID: 70f46793b0108f14e85fed52f8f286b5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:08:49
+    scriptableObjectAssetGUID: ef7945054df71e743a1e0ec2d8a6204c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:08:51
+    scriptableObjectAssetGUID: 4c9f60a1f19ec5049928de1c2310b153
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:09:57
+    scriptableObjectAssetGUID: b4ee74d6e79c0af4bbae2f134c6cb194
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:09:58
+    scriptableObjectAssetGUID: 3ec0c1f137a7f624fb39e017f8b2797f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:23:19
+    scriptableObjectAssetGUID: c467f7e10d931cf4d8b82e37f890337f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:23:39
+    scriptableObjectAssetGUID: cab93e029b8db354584b3a9bedc2b241
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:26:27
+    scriptableObjectAssetGUID: 50fb4346cd043bb409028e919dad4c0e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:26:46
+    scriptableObjectAssetGUID: af8d7174a0530d44d949e87aea5b1f61
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:28:19
+    scriptableObjectAssetGUID: c28ab57f089edf649b29b3bcb5d008ec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:28:28
+    scriptableObjectAssetGUID: 7056da2dd7867b44d8818c0f5208e633
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:29:37
+    scriptableObjectAssetGUID: 04370b75cbd6c464e8274a6bbc3b6add
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:29:40
+    scriptableObjectAssetGUID: 1b45f643ef8264546ac9522000bd0aed
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Undo - 1 Terrains
+    m_operationType: 5
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:29:52
+    scriptableObjectAssetGUID: 378d7311c347bbd47994c42296ab0c3e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:30:36
+    scriptableObjectAssetGUID: 02060425818f8304884be9127a475f62
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:30:37
+    scriptableObjectAssetGUID: 5a233580c0e27274bb9cd544ad6d60b4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:31:45
+    scriptableObjectAssetGUID: 1fa5c59f5462aed4782af78f890d90e9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:31:46
+    scriptableObjectAssetGUID: 421a27034034ce740917db795dea2e44
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:33:12
+    scriptableObjectAssetGUID: a11e5ac7567c72c49815f7cab82cfa9f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:33:13
+    scriptableObjectAssetGUID: bf02aba7a8197e14c8b6356546ad5270
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:34:01
+    scriptableObjectAssetGUID: 9ad38f654c3cf19489ce22d17f78662c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:34:03
+    scriptableObjectAssetGUID: 53049e4aebeedda449959da1254e6c55
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:35:27
+    scriptableObjectAssetGUID: 238af9fdf73af964b9bf34f918a3da54
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:35:29
+    scriptableObjectAssetGUID: 271ed763e96361241b789fed447f49e2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:35:57
+    scriptableObjectAssetGUID: 83f49a09d1b3f964db3752a7d5bfe32d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:35:59
+    scriptableObjectAssetGUID: 2a2951781289dcc4f9642967131afc8b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:36:20
+    scriptableObjectAssetGUID: 539dee31ca8960c4fba7694378ef463d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:36:22
+    scriptableObjectAssetGUID: 3f55284c93a073d408c762d92e9158c3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:36:38
+    scriptableObjectAssetGUID: 07d4897c04110544cae4579154190d22
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:36:40
+    scriptableObjectAssetGUID: 862dce6ba0e20ee43801e174005a8050
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:37:11
+    scriptableObjectAssetGUID: 8d6fe41880f99a94ab08d3757c715ed4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:37:13
+    scriptableObjectAssetGUID: f446869e712c9a74cb812c4bf86de7c8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:37:49
+    scriptableObjectAssetGUID: 94b07d77bacc9e94ca61c86cc4c9c3c1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:37:50
+    scriptableObjectAssetGUID: f4a15884f5f3b7a4da2c33d7c2ec88d4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:38:16
+    scriptableObjectAssetGUID: b662faf1980b1f243a79bd619f9cb894
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:38:17
+    scriptableObjectAssetGUID: 650cce7b9b8efb748accaac1cc388797
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:38:42
+    scriptableObjectAssetGUID: f2772da89e3323246ad106d010d21048
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:38:43
+    scriptableObjectAssetGUID: 37addfe7cdb90fc4da1445ca07caa52d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:39:15
+    scriptableObjectAssetGUID: 54784b3f295c0b84e8a2640deeef10cb
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:39:16
+    scriptableObjectAssetGUID: 05003ffc77db66e4aa417f0452b3e136
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:40:26
+    scriptableObjectAssetGUID: 7584b68f11f620f489cb33ac0564661f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:40:28
+    scriptableObjectAssetGUID: f67211c861d81544fb131d90259036e7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:41:01
+    scriptableObjectAssetGUID: cc6133086099b7a4886621a4427fd250
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:41:02
+    scriptableObjectAssetGUID: 9df21aea7961c7e4ea982e481c163df7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:41:37
+    scriptableObjectAssetGUID: 42ca970f3cd2b204dbd0b436f16c8923
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:41:39
+    scriptableObjectAssetGUID: cc71b44b384fde448a4db52fc140671c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:42:20
+    scriptableObjectAssetGUID: 93eefc7ffe9a0984ab88074aa4a2e342
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:42:22
+    scriptableObjectAssetGUID: 3a2e1db19dee2d5488a1d6b7bb1fb441
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:42:38
+    scriptableObjectAssetGUID: e721d9661a1ea0042acf7b46670eefce
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:42:40
+    scriptableObjectAssetGUID: a38aa20349b11e24494ca312a4c0462a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:43:55
+    scriptableObjectAssetGUID: 29a72a2984cfb5f4582acee7f8668a86
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:43:56
+    scriptableObjectAssetGUID: 9bfbf9329dac68941a2b91e37f7a7627
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Undo - 1 Terrains
+    m_operationType: 5
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:44:21
+    scriptableObjectAssetGUID: 82f39b7aa9b6ad94d93278b6ecdea3a1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:44:27
+    scriptableObjectAssetGUID: fe07b83c0963d8244a29b96e2a68f1bd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:44:28
+    scriptableObjectAssetGUID: 93840569764c70e4e8dfebf55ac878aa
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:44:40
+    scriptableObjectAssetGUID: c2a6952ad7da7fc4b935920ddb82533d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:44:41
+    scriptableObjectAssetGUID: 5cef8515746e822449f2d4ca7267cfc9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:45:03
+    scriptableObjectAssetGUID: 6b4cbab63f382f743894ae718a2e943c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:45:04
+    scriptableObjectAssetGUID: 0a36e35a782311d4a912c9278ae4437d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:45:36
+    scriptableObjectAssetGUID: 6a6e78da017be104e8b81342b12e8f2f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:45:37
+    scriptableObjectAssetGUID: bdc7459a6395cb9418eb5f0645fbde5a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:46:27
+    scriptableObjectAssetGUID: 133dd01fde4d8cd4c9b84b84c2b0be05
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:46:29
+    scriptableObjectAssetGUID: e317a733765eb044ca139d8e3f7e955c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:47:18
+    scriptableObjectAssetGUID: de4424a25033b0f46b5b191c97e8869a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:47:20
+    scriptableObjectAssetGUID: d5aeab49731a9a54bbd467443e8a0c86
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:48:15
+    scriptableObjectAssetGUID: 76d1b31158648d64ea8f7f8fc6fe7d75
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:48:16
+    scriptableObjectAssetGUID: bccfe871f27ede949a39ca62c3d11b8a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:48:53
+    scriptableObjectAssetGUID: a58f0ce8663b5034c8d4738c351c5755
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:48:55
+    scriptableObjectAssetGUID: e4e57bd0fa28ed94bb6c27bbc9466940
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:18
+    scriptableObjectAssetGUID: cf5a22bbbefda6c429cd00a72f6c10cc
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:20
+    scriptableObjectAssetGUID: 9260c2d97bcc56542a9cc1077fb2ee04
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:29
+    scriptableObjectAssetGUID: b0b360f389384af4d8be1437b16b924b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:31
+    scriptableObjectAssetGUID: dbea11c4f010b904eb3dbff1cb9dc2d3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:45
+    scriptableObjectAssetGUID: 0ba988af3a01b644abf9586c03149eb4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:49:47
+    scriptableObjectAssetGUID: fa86e4e07eda38544ac90c0346c73fdf
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:50:32
+    scriptableObjectAssetGUID: 91e22cf6ca98b9c428b6372c900383c2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:50:34
+    scriptableObjectAssetGUID: 26374cb889934dc429a316c31b9e2b1a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:00
+    scriptableObjectAssetGUID: 204d9662021649843951c4aeb86a9354
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:02
+    scriptableObjectAssetGUID: adaa961f010dd8844b6d46138b30d948
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Undo - 1 Terrains
+    m_operationType: 5
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:22
+    scriptableObjectAssetGUID: ea3e20ea2e818fb4b8414167968cb45a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:25
+    scriptableObjectAssetGUID: 68f349626b36b714aaf0f69bd3008533
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:26
+    scriptableObjectAssetGUID: d030711e44ba79044b13d994b3917ef7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: RaiseHeight - 2k Mountain 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:49
+    scriptableObjectAssetGUID: 807f49147cddf6046aa253cfd961531e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (2)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:51:51
+    scriptableObjectAssetGUID: 77f68eaf6f924ea4cb937fc0a0226ff1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20231124 - 002056
+    m_operationDateTime: 02-02-2024 16:54:31
+    scriptableObjectAssetGUID: 7a8dd6705c124e746b33d45f7e1fc044
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: ffc3da3be67f8b54c9d558e80a2dfdcc
     isWorldmap: 0
@@ -830,124 +2106,54 @@ MonoBehaviour:
   - guid: df7d8f145bb3ff24090b391b17401c82
     isWorldmap: 0
     recalculate: 0
-    min: 40.281864
-    max: 149.40852
+    min: 46.37571
+    max: 183.59656
   - guid: Worldmap
     isWorldmap: 1
     recalculate: 0
     min: 0
-    max: 0
+    max: 56.10966
   m_bakedMaskCacheEntries:
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_3584_1
+  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_2048_5
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_3584_1
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_3584_1
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_3600_5
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_3600_5
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_3600_5
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_3600_9
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_3600_9
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_3600_9
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_RadiusTag_PW - Prop_3
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_RadiusTag_PW - Prop_3
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_RadiusTag_PW - Prop_3
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_3584_5
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_3584_5
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_3584_5
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_1536_5
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_1536_5
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_1536_5
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_2064_10
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2064_10
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_2064_10
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_3584_2
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_3584_2
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_3584_2
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_RadiusTree_System.Collections.Generic.List`1[System.Int32]_0.75
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_RadiusTree_System.Collections.Generic.List`1[System.Int32]_0.75
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_RadiusTree_System.Collections.Generic.List`1[System.Int32]_0.75
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_1536_0
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_1536_0
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_1536_0
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_2048_0
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_2048_0
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_2048_0
-    texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_2064_5
-    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2064_5
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_2064_5
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_5
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_5
     texture: {fileID: 0}
   - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_1536_1
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
       - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_1536_1
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_1536_1
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_1536_1
     texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_0_0
+  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_3584_2
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_0_0
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_0_0
+      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_3584_2
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_3584_2
     texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerTree_512_0
+  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_2048_50
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerTree_512_0
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerTree_512_0
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_50
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_50
     texture: {fileID: 0}
-  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_3584_10
+  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_1536_5
     assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
-      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_3584_10
-    fullPath: D:/Unity Editor/Projects/Echoes-Of-Eternity/Assets/ThirdParty/Procedural
-      Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124 - 002056/Terrain_0_0-20231124
-      - 002056_LayerGameObject_3584_10
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_1536_5
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_1536_5
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_2048_60
+    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_60
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_2048_60
+    texture: {fileID: 0}
+  - fileName: Terrain_0_0-20231124 - 002056_LayerGameObject_3584_5
+    assetPath: Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_3584_5
+    fullPath: D:/Echoes-Of-Eternity/Assets/ThirdParty/Procedural Worlds/Gaia/TerrainCollisionData/Terrain_0_0-20231124
+      - 002056/Terrain_0_0-20231124 - 002056_LayerGameObject_3584_5
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
