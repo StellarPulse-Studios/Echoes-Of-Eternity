@@ -73,6 +73,94 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: SetHeight - 2k Plains 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 18:13:53
+    scriptableObjectAssetGUID: 92ab3d8c701b30a43a3e8b9c68bb7721
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Gaia Pro Sample-Texture(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 18:13:54
+    scriptableObjectAssetGUID: c661263d64c88744cafe6329c2740e03
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: SetHeight - 2k Plains 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:08:23
+    scriptableObjectAssetGUID: 2a185d88ac227304e80e37c54a8552ba
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Gaia Pro Sample-Texture(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:08:24
+    scriptableObjectAssetGUID: 145723575db4a1f49a58516c3c65dd2a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: SetHeight - 2k Plains 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:10:17
+    scriptableObjectAssetGUID: 5d840e035d4e4984f91dbe25aa18c5fe
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Gaia Pro Sample-Texture(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:10:18
+    scriptableObjectAssetGUID: 7831a452e2d30214b8eafaabe1c708d6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: SetHeight - 2k Plains 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:13:05
+    scriptableObjectAssetGUID: b84d562c6fefbdd4bbde87e4b690920b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Gaia Pro Sample-Texture(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20240211 - 000906
+    m_operationDateTime: 23-02-2024 19:13:05
+    scriptableObjectAssetGUID: d3446c210dd142c4c81ed5d0946630d8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 9b3cbdd7dae1a8b47845205b9c10daf9
     isWorldmap: 0
@@ -82,7 +170,7 @@ MonoBehaviour:
   - guid: Worldmap
     isWorldmap: 1
     recalculate: 0
-    min: 50.78134
-    max: 119.77597
+    min: 0
+    max: 0
   m_bakedMaskCacheEntries: []
   m_worldBiomeMaskSettings: {fileID: 0}
