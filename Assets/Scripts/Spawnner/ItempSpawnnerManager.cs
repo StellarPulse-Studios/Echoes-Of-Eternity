@@ -4,7 +4,6 @@ using System.Collections.Generic;
 public class ItemSpawnerManager : MonoBehaviour
 {
     public GameObject player; // The player GameObject to calculate distances
-    public LayerMask groundMask; // The ground layer mask to check for ground collisions
     public float activationRadius = 10f; // The radius within which items should be activated
     public List<SectionInfo> spawnSections; // List of sections where items should spawn
 
@@ -49,8 +48,9 @@ public class ItemSpawnerManager : MonoBehaviour
                 // Spawn the specified number of items for each item type in the section
                 for (int i = 0; i < itemInfo.itemCount; i++)
                 {
-                    // Get a random position within the section
-                    Vector3 randomPosition = GetRandomPositionInSection(section.sectionObject);
+                    // Get a random spawn point within the section
+                    Vector3 randomSpawnPoint = GetRandomSpawnPoint(section.sectionObject);
+
                     GameObject itemToSpawn = itemInfo.itemPrefab;
 
                     // Check if the item prefab is not null
@@ -58,75 +58,31 @@ public class ItemSpawnerManager : MonoBehaviour
                     {
                         continue;
                     }
-                    // Find a valid spawn point within the section
-                    //randomPosition = FindValidSpawnPoint(randomPosition);
-                    if(Physics.Raycast(randomPosition+Vector3.up*500,Vector3.down,out RaycastHit hit, 2000.0f,groundMask,QueryTriggerInteraction.Ignore))
-                    {
-                        // Check if a valid spawn point was found
-                        GameObject spawnedItem = Instantiate(itemToSpawn, hit.point, Quaternion.identity);
-                        //spawnedItem.SetActive(true);
-                        spawnedItems.Add(spawnedItem);
-                    }
-;
+
+                    // Spawn the item at the random spawn point
+                    GameObject spawnedItem = Instantiate(itemToSpawn, randomSpawnPoint, Quaternion.identity);
+                    spawnedItems.Add(spawnedItem);
                 }
             }
         }
     }
 
-    Vector3 GetRandomPositionInSection(GameObject sectionObject)
+    Vector3 GetRandomSpawnPoint(GameObject sectionObject)
     {
-        // Get a random position within the bounds of the section's collider
-        Collider sectionCollider = sectionObject.GetComponent<Collider>();
-        if (sectionCollider != null)
+        SectionData sectionData = sectionObject.GetComponent<SectionData>();
+
+        if (sectionData != null && sectionData.spawnPoints != null && sectionData.spawnPoints.points.Count > 0)
         {
-            Vector3 randomPoint = new Vector3(
-                Random.Range(sectionCollider.bounds.min.x, sectionCollider.bounds.max.x),
-                Random.Range(sectionCollider.bounds.min.y, sectionCollider.bounds.max.y),
-                Random.Range(sectionCollider.bounds.min.z, sectionCollider.bounds.max.z)
-            );
-            return randomPoint;
+            // Get a random spawn point from the list of points in SectionSpawnPointSo
+            int randomIndex = Random.Range(0, sectionData.spawnPoints.points.Count);
+            return sectionData.spawnPoints.points[randomIndex];
         }
         else
         {
-            // Log an error if the section object does not have a collider
-            Debug.LogError("Section object does not have a collider!");
+            // Log an error if the section data or spawn points are not set up properly
+            Debug.LogError("Section data or spawn points are not set up properly.");
             return Vector3.zero;
         }
-    }
-
-    Vector3 FindValidSpawnPoint(Vector3 initialPoint)
-    {
-        // Attempt to find a valid spawn point within a certain distance
-        Vector3 spawnPoint = initialPoint;
-        for (int i = 0; i < 10; i++) // Try a maximum of 10 times to find a valid spawn point
-        {
-            // Check if the current spawn point is valid
-            if (CanSpawnAtPosition(spawnPoint))
-            {
-                return spawnPoint;
-            }
-            else
-            {
-                // Try a new random point around the initial point
-                spawnPoint = GetRandomPointAround(initialPoint, 1f); // Adjust the distance as needed
-            }
-        }
-        // Log a warning if a valid spawn point is not found after 10 attempts
-        Debug.LogWarning("Unable to find a valid spawn point after 10 attempts.");
-        return Vector3.zero;
-    }
-
-    Vector3 GetRandomPointAround(Vector3 center, float distance)
-    {
-        // Get a random point around a center point within a specified distance
-        Vector2 randomPoint = Random.insideUnitCircle.normalized * distance;
-        return new Vector3(center.x + randomPoint.x, center.y, center.z + randomPoint.y);
-    }
-
-    bool CanSpawnAtPosition(Vector3 position)
-    {
-        // Check if an item can spawn at the given position by verifying if it is on the specified layer
-        return Physics.Raycast(position, Vector3.down, 1000.0f, groundMask);
     }
 
     void EnableItemsInsideRadius()
@@ -151,5 +107,11 @@ public class ItemSpawnerManager : MonoBehaviour
                 item.SetActive(false);
             }
         }
+    }
+
+    public void RemoveItem(GameObject item)
+    {
+        // Remove the item from the spawned items list
+        spawnedItems.Remove(item);
     }
 }
