@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d44c03271e05c748ac189fd57cc5a75, type: 3}
+  m_Name: Armed Locomotion
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: 18fc363574a61eb45a020c62100b9338, type: 2}
+    to: {fileID: 11400000, guid: b777dd05d9bdbd3458faec66b78d9e45, type: 2}
+  - condition: {fileID: 11400000, guid: 0709f2f77e15d2e4da82b609f88d3308, type: 2}
+    to: {fileID: 11400000, guid: 94ce9258d7e396c478118bbb544449e1, type: 2}
+  - condition: {fileID: 11400000, guid: 4ea53f59903f86049bef2c3ee338f70a, type: 2}
+    to: {fileID: 11400000, guid: ce4e7e1f3c825a54faf8e12191e15178, type: 2}
+  - condition: {fileID: 11400000, guid: b8e55cb4f2f005844b18483e83f8cadf, type: 2}
+    to: {fileID: 11400000, guid: 5b2080248162b9c41a4136c16086a1a8, type: 2}
+  - condition: {fileID: 11400000, guid: ea978a7370f99874190860166fb821f2, type: 2}
+    to: {fileID: 11400000, guid: dace83b400423b0429166ee28fcd04a1, type: 2}
+  - condition: {fileID: 11400000, guid: fb5a6cf4fab03b44496b606cec98b479, type: 2}
+    to: {fileID: 11400000, guid: b6ff7669de1ef2544820438f13c43621, type: 2}
+  - condition: {fileID: 11400000, guid: 0cd4cf504760c9e45826aac79cf6500e, type: 2}
+    to: {fileID: 11400000, guid: 1ffd7585d3729ee45a1ad683a448a94d, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 9a9e62fb382b092448924ac24ec2e913, type: 2}
+  defaultRunning: 1

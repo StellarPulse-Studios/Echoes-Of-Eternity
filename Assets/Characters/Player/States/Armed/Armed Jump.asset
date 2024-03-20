@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127ea1fb52ff11347acf9ffb327d7671, type: 3}
+  m_Name: Armed Jump
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: 83b5cee0d2a5cef40a92a8ea811bd93c, type: 2}
+    to: {fileID: 11400000, guid: 63eb6a6b476096d48ab99b7c192b36de, type: 2}
+  - condition: {fileID: 11400000, guid: d72d21fb9b3de4f47a4da841ff0aa0c3, type: 2}
+    to: {fileID: 11400000, guid: 0c63dc4f8bcae75458f687b5bb27a4b2, type: 2}
+  - condition: {fileID: 11400000, guid: 179b9883f6e614947ba46b4097fb2786, type: 2}
+    to: {fileID: 11400000, guid: b777dd05d9bdbd3458faec66b78d9e45, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 2c506d51c2e49e1458d4b4decfb8bc34, type: 2}

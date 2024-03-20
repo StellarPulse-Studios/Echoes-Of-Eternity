@@ -11,6 +11,8 @@ namespace Player
         public float walkSpeed = 2.0f;
         public float runSpeed = 4.0f;
         public float sprintSpeed = 6.0f;
+        public float swordWalkSpeed = 1.993f;
+        public float swordRunSpeed = 4.981f;
         public float jumpHeight = 2.0f;
         public float totalFallTimeToBecomeUnstable = 1.0f;
         public float crouchWalkSpeed = 2.047f;
@@ -26,6 +28,8 @@ namespace Player
         public CharacterController characterController;
         public ExtendedCharacterController extendedCharacterController;
         public Animator animator;
+        public GameObject sword;
+        public GameObject shield;
 
         [Header("Inputs")]
         public Vector2 move;
@@ -33,14 +37,20 @@ namespace Player
         public bool sprint;
         public bool jump;
         public bool dodge;
+        public bool attack;
+        public bool lightAttack;
+        public bool heavyAttack;
+        public bool block;
 
         [Header("State Variables")]
         public bool isGrounded;
         public bool isAnimationCompleted;
+        public bool isAnimationStateMachineExited;
         public float turnAngle;
         public Quaternion targetRotation;
         public float fallingTime;
         public bool isCrouched;
+        public bool isArmed;
 
         [Header("Debug Variables")]
         public float CurrentSpeed;

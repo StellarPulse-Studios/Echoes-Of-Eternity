@@ -13,8 +13,9 @@ namespace Player
             board.animator.applyRootMotion = true;
 
             board.animator.SetBool("IsGrounded", true);
+            board.animator.SetFloat("MoveSpeed", 0.0f);
 
-            // TODO : If jumped from very high ground, then trigger roll
+            // If jumped from very high ground, then trigger roll
             if (board.fallingTime >= board.totalFallTimeToBecomeUnstable)
             {
                 board.animator.SetTrigger("Roll");

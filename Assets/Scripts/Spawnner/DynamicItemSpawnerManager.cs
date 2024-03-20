@@ -49,6 +49,11 @@ public class DynamicItemSpawnerManager : StaticItemSpawnerManager
     private void OnDrawGizmos()
     {
         float mindistance = float.MaxValue;
+        if (player == null) 
+        {
+            //print("Player is null");
+            return;
+        } 
         Vector3 playerPos = player.transform.position;
         GameObject itemToDraw = null;
         foreach (var item in spawnedItems)
