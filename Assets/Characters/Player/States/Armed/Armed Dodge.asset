@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6835aabed9fab04aa41c9361c10b272, type: 3}
+  m_Name: Armed Dodge
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: 0709f2f77e15d2e4da82b609f88d3308, type: 2}
+    to: {fileID: 11400000, guid: 94ce9258d7e396c478118bbb544449e1, type: 2}
+  - condition: {fileID: 11400000, guid: 38225ad862445f846b8506d1a1056ce6, type: 2}
+    to: {fileID: 11400000, guid: 63eb6a6b476096d48ab99b7c192b36de, type: 2}
+  actions: []
+  snapToGround: 0
+  snapSpeed: 1

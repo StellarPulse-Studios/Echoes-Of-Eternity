@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57671b5fdb598941b4d0f7ea6b7c325, type: 3}
+  m_Name: Free Fall
+  m_EditorClassIdentifier: 
+  transitions:
+  - condition: {fileID: 11400000, guid: d72d21fb9b3de4f47a4da841ff0aa0c3, type: 2}
+    to: {fileID: 11400000, guid: 1381298240305f449ae351f08da5b70d, type: 2}
+  actions:
+  - {fileID: 11400000, guid: 9a9e62fb382b092448924ac24ec2e913, type: 2}
