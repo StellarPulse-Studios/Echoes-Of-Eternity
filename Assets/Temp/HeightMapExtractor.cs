@@ -16,6 +16,35 @@ public class HeightMapExtractor : MonoBehaviour
         float[,] heights = data.GetHeights(0, 0, mapSize, mapSize);
         Color[] colors = new Color[mapSize * mapSize];
 
+        for (int x = 0; x < mapSize; x++)
+        {
+            for (int z = 0; z < mapSize; z++)
+            {
+                colors[x * mapSize + z] = Color.Lerp(Color.black, Color.white, heights[x, z]);
+            }
+        }
+
+        Texture2D texture = new Texture2D(mapSize, mapSize, TextureFormat.R8, true);
+        texture.SetPixels(colors);
+        texture.Apply();
+
+        byte[] bytes = texture.EncodeToPNG();
+        DestroyImmediate(texture);
+
+        string path = UnityEditor.EditorUtility.SaveFilePanel("Save to", "", "Height Map", "png");
+        print(path);
+        File.WriteAllBytes(path, bytes);
+    }
+
+    [ContextMenu("Extract Height Map 01")]
+    private void ExtractHeights01()
+    {
+        TerrainData data = terrain.terrainData;
+
+        int mapSize = data.heightmapResolution;
+        float[,] heights = data.GetHeights(0, 0, mapSize, mapSize);
+        Color[] colors = new Color[mapSize * mapSize];
+
         float min = float.MaxValue;
         float max = float.MinValue;
 
@@ -46,7 +75,7 @@ public class HeightMapExtractor : MonoBehaviour
         byte[] bytes = texture.EncodeToPNG();
         DestroyImmediate(texture);
 
-        string path = UnityEditor.EditorUtility.SaveFilePanel("Save to", "", "HeightMap", "png");
+        string path = UnityEditor.EditorUtility.SaveFilePanel("Save to", "", "Height Map 01", "png");
         print(path);
         File.WriteAllBytes(path, bytes);
     }
