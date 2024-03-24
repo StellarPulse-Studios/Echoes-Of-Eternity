@@ -20,12 +20,17 @@ namespace Player
 
             // Weapons
             board.sword.SetActive(true);
+            board.shield.SetActive(true);
         }
 
         public override void OnExit(Blackboard board)
         {
             board.PreviousVelocity = board.Velocity;
             board.PreviousSpeed = board.PreviousVelocity.magnitude;
+
+            // Weapons
+            board.sword.SetActive(false);
+            board.shield.SetActive(false);
         }
 
         public override void OnUpdate(Blackboard board)

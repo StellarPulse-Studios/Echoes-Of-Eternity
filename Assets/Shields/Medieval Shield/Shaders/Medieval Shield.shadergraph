@@ -83,6 +83,9 @@
         },
         {
             "m_Id": "850b23ced07e4517ae45e0c145943611"
+        },
+        {
+            "m_Id": "4bb1d3a0f40941ce9935b78d945e01c2"
         }
     ],
     "m_GroupDatas": [],
@@ -140,6 +143,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "715c9d87fa384872bc5a46dff8497af0"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "4bb1d3a0f40941ce9935b78d945e01c2"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2afdcae036c1451da32657630cafcf76"
                 },
                 "m_SlotId": 0
             }
@@ -223,7 +240,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "2afdcae036c1451da32657630cafcf76"
+                    "m_Id": "4bb1d3a0f40941ce9935b78d945e01c2"
                 },
                 "m_SlotId": 0
             }
@@ -838,6 +855,54 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "46fa80fdb505416a8a48351006c15d09",
+    "m_Id": 0,
+    "m_DisplayName": "In",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "In",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "4722550e472445d3880917260085e30e",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
     "m_SGVersion": 2,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalLitSubTarget",
     "m_ObjectId": "48632ccc75e343baa81c7efd9195de46",
@@ -845,6 +910,46 @@
     "m_NormalDropOffSpace": 0,
     "m_ClearCoat": false,
     "m_BlendModePreserveSpecular": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
+    "m_ObjectId": "4bb1d3a0f40941ce9935b78d945e01c2",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "One Minus",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -333.6000061035156,
+            "y": 382.4000244140625,
+            "width": 128.00003051757813,
+            "height": 93.5999755859375
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "46fa80fdb505416a8a48351006c15d09"
+        },
+        {
+            "m_Id": "4722550e472445d3880917260085e30e"
+        }
+    ],
+    "synonyms": [
+        "complement",
+        "invert",
+        "opposite"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
 }
 
 {
@@ -874,7 +979,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 1
 }
 
 {
@@ -1070,7 +1175,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 1
 }
 
 {
@@ -1194,7 +1299,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 1
 }
 
 {
@@ -1423,7 +1528,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 3
 }
 
 {

@@ -20,7 +20,8 @@ namespace Player
             board.attack = false;
             board.lightAttack = false;
             board.heavyAttack = false;
-            board.shield.SetActive(false);
+            board.jump = false;
+            //board.shield.SetActive(false);
             board.animator.SetBool("Block", false);
         }
 
