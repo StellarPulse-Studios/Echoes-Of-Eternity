@@ -51,6 +51,7 @@ public class StaticItemSpawnerManager : MonoBehaviour
                     // Get a random spawn point within the section
                     Vector3 randomSpawnPoint = GetRandomSpawnPoint(section.sectionObject);
 
+
                     GameObject itemToSpawn = itemInfo.itemPrefab;
 
                     // Check if the item prefab is not null
@@ -62,11 +63,21 @@ public class StaticItemSpawnerManager : MonoBehaviour
                     // Spawn the item at the random spawn point
                     GameObject spawnedItem = Instantiate(itemToSpawn, randomSpawnPoint, Quaternion.identity);
                     spawnedItems.Add(spawnedItem);
+
+                    if (Physics.Raycast(randomSpawnPoint+Vector3.up,Vector3.down,out RaycastHit hit))
+                    {
+                        spawnedItem.transform.up = hit.normal;
+                    }
+                      
                 }
             }
         }
     }
 
+    private int Remap(int a,int b,int c,int d,int e)
+    {
+        return (int)Mathf.Lerp(d, e, Mathf.InverseLerp(b, c, a));
+    }
     protected Vector3 GetRandomSpawnPoint(GameObject sectionObject)
     {
         SectionData sectionData = sectionObject.GetComponent<SectionData>();
@@ -74,7 +85,8 @@ public class StaticItemSpawnerManager : MonoBehaviour
         if (sectionData != null && sectionData.spawnPoints != null && sectionData.spawnPoints.points.Count > 0)
         {
             // Get a random spawn point from the list of points in SectionSpawnPointSo
-            int randomIndex = Random.Range(0, sectionData.spawnPoints.points.Count);
+            int randomIndex = Random.Range(0, 100000);
+            randomIndex = Remap(randomIndex, 0, 100000 - 1, 0, sectionData.spawnPoints.points.Count);
             return sectionData.spawnPoints.points[randomIndex];
         }
         else
