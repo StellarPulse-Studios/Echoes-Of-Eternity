@@ -12,7 +12,7 @@ namespace Player
             board.PreviousVelocity = Vector3.zero;
             board.PreviousSpeed = 0.0f;
             board.animator.SetBool("Block", true);
-            board.shield.SetActive(true);
+            board.shieldInHand.SetActive(true);
         }
 
         public override void OnExit(Blackboard board)

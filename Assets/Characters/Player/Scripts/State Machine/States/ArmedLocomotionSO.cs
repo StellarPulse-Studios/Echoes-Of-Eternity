@@ -18,24 +18,34 @@ namespace Player
             board.animator.SetBool("IsArmed", true);
             board.animator.SetBool("IsGrounded", true);
 
+            board.lightAttack = false;
+            board.heavyAttack = false;
+
             // Weapons
-            board.sword.SetActive(true);
-            board.shield.SetActive(true);
+            board.swordInHand.SetActive(true);
+            board.shieldInHand.SetActive(true);
         }
 
         public override void OnExit(Blackboard board)
         {
             board.PreviousVelocity = board.Velocity;
             board.PreviousSpeed = board.PreviousVelocity.magnitude;
-
-            // Weapons
-            board.sword.SetActive(false);
-            board.shield.SetActive(false);
         }
 
         public override void OnUpdate(Blackboard board)
         {
             UpdateMovement(board);
+        }
+
+        public override void DrawGizmos(Blackboard board)
+        {
+            base.DrawGizmos(board);
+
+            Gizmos.color = new Color(1.0f, 0.0f, 1.0f, 1.0f);
+            Gizmos.DrawWireSphere(board.playerTransform.position, board.enemyMaxRangeThreshold);
+
+            UnityEditor.Handles.color = new Color(1.0f, 0.0f, 1.0f, 0.05f);
+            UnityEditor.Handles.DrawSolidArc(board.playerTransform.position, Vector3.up, board.playerTransform.forward, 360.0f, board.enemyMaxRangeThreshold);
         }
 
         private void UpdateMovement(Blackboard board)

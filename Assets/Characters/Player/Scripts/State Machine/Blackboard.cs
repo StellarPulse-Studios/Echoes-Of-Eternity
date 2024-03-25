@@ -16,6 +16,8 @@ namespace Player
         public float jumpHeight = 2.0f;
         public float totalFallTimeToBecomeUnstable = 1.0f;
         public float crouchWalkSpeed = 2.047f;
+        public float enemyMinRangeThreshold = 1.0f;
+        public float enemyMaxRangeThreshold = 3.0f;
 
         [Header("Ground Check")]
         public float groundCheckRadiusOffset = 0.01f;
@@ -28,8 +30,11 @@ namespace Player
         public CharacterController characterController;
         public ExtendedCharacterController extendedCharacterController;
         public Animator animator;
-        public GameObject sword;
-        public GameObject shield;
+        public GameObject swordInHand;
+        public GameObject shieldInHand;
+        public GameObject torchInHand;
+        public GameObject swordInBack;
+        public GameObject shieldInBack;
 
         [Header("Inputs")]
         public Vector2 move;
@@ -51,6 +56,10 @@ namespace Player
         public float fallingTime;
         public bool isCrouched;
         public bool isArmed;
+        public bool isCharging;
+        public bool isCharged;
+        public bool hasStartedCharging;
+        public Transform closestEnemy;
 
         [Header("Debug Variables")]
         public float CurrentSpeed;

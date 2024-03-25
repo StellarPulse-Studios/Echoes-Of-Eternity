@@ -79,7 +79,7 @@
                 },
                 {
                     "name": "HeavyAttack",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "b3e857b5-50c4-4c51-b12d-5fb69912daaa",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -90,6 +90,33 @@
                     "name": "Block",
                     "type": "PassThrough",
                     "id": "48843fa0-ce55-4fb7-9b2e-daa18bec1992",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "One",
+                    "type": "Button",
+                    "id": "bdc8a9d8-094e-4449-b533-cca62277151d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Two",
+                    "type": "Button",
+                    "id": "b7b16ba0-000d-43c9-b950-20a43b275f2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Three",
+                    "type": "Button",
+                    "id": "833052e8-4bca-42b6-af8b-1fe7a556b66c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -358,6 +385,39 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6169e77-9498-44b1-b9d8-98842f145ae7",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard Mouse",
+                    "action": "One",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1ac8145-02ff-494a-8880-ee1254af2add",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Two",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d57858b2-2fab-4965-953c-ad089b15551a",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Three",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

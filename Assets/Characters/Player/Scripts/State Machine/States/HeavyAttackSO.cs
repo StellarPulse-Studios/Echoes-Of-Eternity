@@ -26,6 +26,24 @@ namespace Player
                 board.heavyAttack = false;
                 board.animator.SetTrigger("HeavyAttack");
             }
+
+            if (board.isCharged)
+            {
+                if (!board.isCharging)
+                {
+                    board.isCharged = false;
+                    board.animator.SetFloat("ChargeMultiplier", 1.0f);
+                }
+            }
+
+            if (board.hasStartedCharging)
+            {
+                if (!board.isCharging)
+                {
+                    board.hasStartedCharging = false;
+                    board.animator.SetFloat("ChargeMultiplier", 1.0f);
+                }
+            }
         }
     }
 }
